@@ -1,0 +1,113 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* light grey background */
+    color: #212529; /* dark grey text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Page heading */
+h1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #0d6efd; /* Bootstrap primary blue */
+    text-align: center;
+}
+
+/* Form container */
+form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+/* Form labels and inputs */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: #0d6efd;
+    box-shadow: 0 0 3px rgba(13, 110, 253, 0.3);
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0b5ed7;
+}
+
+/* Prediction results */
+h2 {
+    margin-top: 30px;
+    color: #0d6efd;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 500;
+}
+
+/* Result page container */
+.result-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}

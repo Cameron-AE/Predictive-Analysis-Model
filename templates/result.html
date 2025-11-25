@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link href="{{ url_for('static', filename='stylesheet.css') }}" rel="stylesheet">
+</head>
+<body>
+    <h1>Predictions</h1>
+    <p><strong>Vehicle Type:</strong> {{ vehicle_type }}</p>
+    <p><strong>Age:</strong> {{ age }} years</p>
+    <p><strong>Engine Size:</strong> {{ engine_size }} L</p>
+    <p><strong>Load Capacity:</strong> {{ load_capacity }} kg</p>
+
+    <h2>Predicted Outputs</h2>
+    <ul>
+        <li>Mileage: {{ mileage }} km/l</li>
+        <li>Repair Count: {{ repair }} per year</li>
+        <li>Fuel Consumption: {{ fuel }} L/100km</li>
+    </ul>
+
+    <a href="/">Try another prediction</a>
+</body>
+</html>
