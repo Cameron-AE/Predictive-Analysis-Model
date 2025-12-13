@@ -2,9 +2,9 @@ Created Predictive Analysis Models using multiple different Algorithms with Scik
 -Mileage<br>
 -Fuel Consumption<br>
 -Repair Count(per year)<br><br>
-Model is trained with highly correlated **Synthetic Data**<br><br>
+Models were trained with **Synthetic Data** with strong linear correlations between features and targets <br><br>
 Algorithms used:<br>
 -Linear Regression<br>
 -Random Forest<br>
 -Gradient Boosting<br><br>
-Linear Regression is the key model in this project as it had the best accuracy scores within a 10% threshold due to the data being generated with high linear correlation
+Linear Regression is the primary model in this project, as it achieved the best performance (predictions within a 10% error threshold), which aligns with the intentionally linear structure of the synthetic data.
