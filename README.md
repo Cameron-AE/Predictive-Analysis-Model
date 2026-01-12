@@ -1,4 +1,4 @@
-Created Predictive Analysis Models using multiple different Algorithms with Scikit-learn to predict targets such as<br>
+Created Logistics related Predictive Analysis Models using multiple different Algorithms with Scikit-learn to predict targets such as<br>
 -Mileage<br>
 -Fuel Consumption<br>
 -Repair Count(per year)<br><br>
